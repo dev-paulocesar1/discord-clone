@@ -2,6 +2,7 @@ import React from 'react';
 
 import ServerList from '../serverList';
 import ServerName from '../serverName';
+import ChannelInfo from '../channelInfo';
 
 import { Grid } from './styles';
 
@@ -10,6 +11,7 @@ function Layout() {
     <Grid>
       <ServerList />
       <ServerName />
+      <ChannelInfo />
     </Grid>
   );
 }
