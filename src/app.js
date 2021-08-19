@@ -1,7 +1,13 @@
-import React from 'react'
+import React from 'react';
+
+import GlobalStyle from './styles/global';
 
 function App() {
-  return <h1>Discord clone</h1>;
+  return (
+    <>
+      <GlobalStyle />
+    </>
+  );
 }
 
 export default App;
