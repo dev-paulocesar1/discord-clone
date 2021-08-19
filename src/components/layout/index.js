@@ -6,6 +6,7 @@ import ChannelInfo from '../channelInfo';
 import ChannelList from '../channelList';
 import UserInfo from '../userInfo';
 import ChannelData from '../channelData';
+import UserList from '../userList';
 
 import { Grid } from './styles';
 
@@ -18,6 +19,7 @@ function Layout() {
       <ChannelList />
       <UserInfo />
       <ChannelData />
+      <UserList />
     </Grid>
   );
 }
