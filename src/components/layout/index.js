@@ -5,6 +5,7 @@ import ServerName from '../serverName';
 import ChannelInfo from '../channelInfo';
 import ChannelList from '../channelList';
 import UserInfo from '../userInfo';
+import ChannelData from '../channelData';
 
 import { Grid } from './styles';
 
@@ -16,6 +17,7 @@ function Layout() {
       <ChannelInfo />
       <ChannelList />
       <UserInfo />
+      <ChannelData />
     </Grid>
   );
 }
